@@ -23,4 +23,3 @@ insert into Order_Details value(001,23,1001,15),(002,24,1002,24),(003,25,1003,12
    
 
 
-   18:38:40	insert into Order_Details value(001,23,1001,15),(002,24,1002,24),(003,25,1003,12),(004,26,1004,49),(005,27,1005,42),(006,28,1006,31),(007,29,1007,17), (008,30,1008,80),(009,31,1009,69),(010,32,1010,18),(011,33,1011,45),(012,34,1012,33),(013,35,1013,76),(014,36,1014,37),(015,37,1015,60)	Error Code: 1452. Cannot add or update a child row: a foreign key constraint fails (`onlineshopping`.`order_details`, CONSTRAINT `order_details_ibfk_2` FOREIGN KEY (`product_id`) REFERENCES `products` (`product_id`))	0.032 sec
